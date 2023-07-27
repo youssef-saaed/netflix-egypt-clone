@@ -1,0 +1,442 @@
+body{
+    background-color: #333;
+}
+
+#landing, #landingplaceholder {
+    color: white;
+    overflow: hidden;
+    height: 92vh;    
+}
+
+#landing img{
+    transform: scale(1.5) translateY(-12%) translateX(-0.5%);
+}
+
+#landing .bgTransparent {
+    background: linear-gradient(to bottom, #000000d9 10%, #00000055 50%, #000000d9 90%);  
+}
+
+.mybtn {
+    background-color: #E50914;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.mybtn:hover {
+    background-color: #a10910; 
+    color: white;
+}
+
+.langBtn, .langBtn:hover, .langBtn:checked, .langBtn:active, .langBtn:enabled {
+    color: white;
+    border: 0.5px solid #bbb;
+    background-color: #3337;
+}
+
+.dropdown img {
+    filter: invert(100%);
+}
+
+.logosmall img {
+    width: 100%;
+}
+
+.logosmall {
+    width: 150px;
+}
+
+h1 {
+    font-weight: 750;
+}
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#landing input, #smallForm input {
+    color: white;
+    background-color: rgba(35, 35, 35, 0.822);
+    width: 300px;
+    height: 50px;
+}
+
+#landing form button, #smallForm form button {
+    height: 50px;
+    width: 175px;
+    font-size: 1.2rem;
+}
+
+
+#landing input::placeholder, #smallForm input::placeholder {
+    color: #888;
+}
+
+.mysection {
+    overflow: hidden;
+    background-color: #000;
+    height: 65vh;
+    color: white;
+}
+
+.mysectiontop {
+    overflow: hidden;
+    height: 65vh;
+    color: white;
+}
+
+.bgvid {
+    width: 102%;
+    transform: translateX(-13.5%) translateY(4.5%);
+}
+
+.downcard {
+    background-color: #000;
+    border-color: #555;
+    border-radius: 10px;
+    border-width: 2px;
+    transform: translateY(350%);
+    max-width: 350px;
+}
+
+.downcard .card-title {
+    color:#fff;
+}
+
+.downcard .card-text {
+    color: #006ee6;
+}
+
+.bgvid2 {
+    width: 88%;
+    transform: translateX(-6%) translateY(-15%);
+}
+
+.dsection {
+    overflow: hidden;
+    background-color: #000;
+    color: white;
+}
+
+button.accordion-button.collapsed::after, button.accordion-button::after, .accordion-button:not(.collapsed)::after {
+    content: "+";
+    font-size: 3rem;
+    background-image: none;
+    transition: none;
+    transform: none;
+    transform: translateY(-120%) translateX(-40%);
+    text-align: right;
+}
+
+.accordion-button, .accordion-button:hover, .accordion-button:checked, .accordion-button:enabled, .accordion-button:active {
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    box-shadow: none;
+    height: 100px;
+}
+
+.accordion-item {
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    box-shadow: none;
+}
+
+.SIDIV a, footer a, footer p{
+    color:#aaa;
+    font-size: 1rem;
+}
+
+.SIEN {
+    background-image: url("./media/background_main.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.SIAR {
+    background-image: url("./media/background_main_ar.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.SIEN nav, .SIAR nav {
+    background: linear-gradient(to bottom, #0009 0%, #0003 50%, #0000 100%);
+}
+
+.SISEC {
+    height: 105vh;
+}
+
+.SIDIV {
+    background-color: #000b;
+    width:450px;
+    padding: 60px 68px 40px 68px;
+}
+
+.SIDIV h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.SIDIV input[type="text"], .SIDIV input[type="password"] {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.SIDIV button {
+    height: 50px;
+    font-size: 16px;
+}
+
+.dSI{
+    overflow: hidden;
+    background-color: #000b;
+    color: white;
+}
+
+.SIRMBR p{
+    display: inline-block;
+    color: #aaa;
+    font-size:14px;
+}
+
+.SIRMBR input{
+    width:25px;
+}
+.SIDIV a {
+    font-size:14px; 
+}
+
+.dSI a {
+    text-decoration: none;
+}
+
+.dSI a:hover {
+    text-decoration: underline;
+}
+
+#blackoverlay {
+    background-color: #0007;
+}
+
+.SINotes p{
+    color: #777;
+    font-size: 14px;
+}
+
+.SINotes a {
+    color: white;
+    text-decoration: none;
+}
+
+.bluea {
+    color:#006ee6 !important;
+}
+
+.warningmsg {
+    color: #ff8400;
+    font-size: 14px;
+
+}
+
+.warnedinput {
+    border-bottom: 3px solid #ff8400 !important;
+}
+
+.placeholderAR::placeholder, .placeholderAR {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.bgvid3 {
+    width: 102%;
+    transform: translateX(12.5%) translateY(4.5%);
+}
+
+.bgvid4 {
+    width: 88%;
+    transform: translateX(6%) translateY(-15%);
+}
+
+@media (max-width:1400px){
+    .bgvid {
+        width: 105%;
+        transform: translateX(-15%) translateY(-1%);
+    }
+    .downcard {
+        transform: translateY(280%);
+    }
+    .bgvid2 {
+        width: 88%;
+        transform: translateX(-8%) translateY(-22%);
+    }
+    .bgvid3 {
+        width: 105%;
+        transform: translateX(14%) translateY(-1%);
+    }
+    .bgvid4 {
+        width: 88%;
+        transform: translateX(6%) translateY(-22%);
+    }     
+}
+
+@media (max-width:1200px){
+    .bgvid {
+        width: 109.5%;
+        transform: translateX(-17%) translateY(-9%);
+    }
+    .downcard {
+        max-width: 300px;
+        transform: translateY(220%);
+    }
+    .bgvid2 {
+        width: 93%;
+        transform: translateX(-12%) translateY(-32%);
+    }
+    .bgvid3 {
+        width: 109.5%;
+        transform: translateX(16%) translateY(-9%);
+    }
+    .bgvid4 {
+        width: 93%;
+        transform: translateX(7%) translateY(-32%);
+    }
+}
+
+@media (max-width:992px){
+    .bgvid {
+        width: 120%;
+        transform: translateX(-21%) translateY(-26%);
+    }
+    .downcard {
+        max-width: 240px;
+        transform: translateY(170%);
+    }
+    .downcard .card-title {
+        font-size:medium;
+    }
+    .downcard .card-text {
+        font-size:small;
+    }
+    .bgvid2 {
+        width: 98%;
+        transform: translateX(-15%) translateY(-55%);
+    }
+    .bgvid3 {
+        width: 120%;
+        transform: translateX(20%) translateY(-26%);
+    }
+    .bgvid4 {
+        width: 98%;
+        transform: translateX(13%) translateY(-55%);
+    }
+}
+
+@media (max-width:768px){
+    .bgvid {
+        width: 85%;
+        transform: translateX(8.5%) translateY(44%);
+    }
+    .downcard {
+        display: none;
+    }
+    .bgvid2 {
+        width: 74%;
+        transform: translateX(19%) translateY(22%);
+    }
+    .bgvid3 {
+        width: 85%;
+        transform: translateX(-10%) translateY(44%);
+    }
+    .bgvid4 {
+        width: 74%;
+        transform: translateX(-18%) translateY(25%);
+    }
+}
+
+@media (max-width: 740px)
+{
+    .SIEN {
+        background:#333;
+    }
+    .SIDIV {
+        background-color: #000;
+        width: 100vw;
+        margin: 0;
+        padding: 0px 37px;
+    }
+    #blackoverlay {
+        background-color: #000;
+    }
+}
+
+@media (max-width:492px){
+    .logosmall {
+        width: 100px;
+        transform: translateY(15%);
+    }
+}
+
+@media (max-width:459px){
+    .bgvid {
+        width: 87%;
+        transform: translateX(7%) translateY(57%);
+    }
+    .bgvid2 {
+        width: 74%;
+        transform: translateX(19%) translateY(30%);
+    }
+    .bgvid3 {
+        width: 87%;
+        transform: translateX(-8%) translateY(57%);
+    }
+    .bgvid4 {
+        width: 74%;
+        transform: translateX(-18%) translateY(42%);
+    }
+}
+
+@media (max-width:423px){
+    .logosmall {
+        width: 50px;
+        transform: translateY(17%);
+    }
+    .bgvid {
+        width: 87%;
+        transform: translateX(7%) translateY(62%);
+    }
+}
+
+@media (max-width:376px){
+    .bgvid {
+        width: 92%;
+        transform: translateX(4%) translateY(59.5%);
+    }
+    .bgvid2 {
+        width: 80%;
+        transform: translateX(13%) translateY(50%);
+    }
+    .bgvid3 {
+        width: 92%;
+        transform: translateX(-4.5%) translateY(83.5%);
+    }
+    .bgvid4 {
+        width: 74%;
+        transform: translateX(-18%) translateY(85%);
+    }
+}

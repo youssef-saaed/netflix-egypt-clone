@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta property="og:image" content="./media/netflix_logo.jpg"/>
+        <meta property="og:title" content="Netflix - تسجيل الدخول"/>
+        <meta property="og:description" content="شاهد البرامج التلفزيونية والأفلام على Netflix عبر الإنترنت أو قم بالبث مباشرةً على أجهزة التلفزيون الذكية وجهاز الألعاب والكمبيوتر المكتبي وMac والجوال والكمبيوتر اللوحي، والمزيد."/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Netflix</title>
+        <link href="./media/logo.ico" rel="icon">
+        <link href="./bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body class="SIAR" dir="rtl">
+        <div id="blackoverlay" class="w-100 h-100 position-fixed z-n1"></div>
+        <!-- nav bar -->
+        <nav class="w-100 position-absolute z-2">
+            <div class="container-fluid py-4 px-5">
+                <div class="logosmall">
+                    <a href="index-ar.html">
+                        <img src="./media/logo_main.png" alt="netflix logo"/>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- sign in section -->
+        <div class="d-flex w-100 justify-content-center SISEC">
+            <div class="position-absolute h-100 w-100">
+                <div class="position-absolute top-50 start-50 translate-middle mt-lg-4">
+                    <div class="SIDIV">
+                        <div class="row my-1 mb-4">
+                            <h1>تسجيل الدخول</h1>
+                        </div>
+                        <div class="row my-3">
+                            <form>
+                                <div class="row my-2">
+                                    <input type="text" name="EOP" id="EOP" placeholder="البريد الإلكتروني أو رقم الهاتف"/>
+                                </div>
+                                <div class="row">
+                                    <p class="d-none warningmsg my-1 mb-3" id ="W1">يرجى إدخال عنوان بريد إلكتروني صالح أو رقم هاتف صالح.</p>
+                                </div>
+                                <div class="row my-2">
+                                    <input type="password" name="pass" id="pass" placeholder="كلمة مرور"/>
+                                </div>
+                                <div class="row">
+                                    <p class="d-none warningmsg my-1 mb-3" id ="W2">يجب أن تتضمن كلمة المرور ما بين 4 إلى 60 حرفًا.</p>
+                                </div>
+                                <div class="row mt-4">
+                                    <button type="submit" id="SIF" class="btn mybtn mb-3">تسجيل الدخول</button>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="SIRMBR col">
+                                        <input type="checkbox">
+                                        <p>تذكرني</p>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#"><p class="text-start">تحتاج للمساعدة؟</p></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row SINotes mt-5">
+                            <p>جديد على Netflix؟ <a href="index.html">التسجيل الآن</a>.</p>
+                            <p>هذه الصفحة محمية بواسطة خدمة reCAPTCHA من Google لضمان أنك لست إنسانًا آليًا.<a href="#" id="moreBTN" class="bluea">تعرّف على المزيد.</a></p>
+                            <p id="hiddenMore" class="d-none">تخضع المعلومات التي تجمعها خدمة reCAPTCHA من Google إلى <a href="#" class="bluea">سياسة الخصوصية</a> و <a href="#" class="bluea">بنود الخدمة</a>المعمول بهما لدى Google، وتُستخدم لتقديم خدمة reCAPTCHA وصيانتها وتحسينها، فضلاً عن أغراض الأمان العامة (لا تُستخدم لأغراض تقديم الإعلانات المخصصة بواسطة Google).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="dSI w-100 position-absolute">
+            <div class="container">
+                  <div class="row my-4">
+                    <a href="#">هل لديك أسئلة؟ اتصل بنا.</a>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">الأسئلة الشائعة</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">مركز خدمة العملاء</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">بنود الاستخدام</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">الخصوصية</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">تفضيلات الكوكيز</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">معلومات الشركة</a>
+                    </div>
+                  </div>
+                  <div class="row my-4">
+                    <div class="d-inline-block">
+                        <div class="dropdown d-inline-block">
+                            <button class="btn dropdown-toggle langBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./media/lang-ico.png" alt="language icon" width="20px"/>
+                                العربية
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">العربية</a></li>
+                              <li><a class="dropdown-item" href="login.html">English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <p>Netflix مصر - تم استنساخ الموقع بواسطة <a href="https://www.linkedin.com/in/yousef-said-776a2220a/" target="_blank">Yousef Said</a></p>
+                  </div>
+            </div>
+        </footer>
+        <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

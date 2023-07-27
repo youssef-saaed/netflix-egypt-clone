@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta property="og:image" content="./media/netflix_logo.jpg"/>
+        <meta property="og:title" content="Netflix مصر - شاهد العروض التلفزيونية عبر الإنترنت، شاهد الأفلام عبر الأنترنت"/>
+        <meta property="og:description" content="شاهد البرامج التلفزيونية والأفلام على Netflix عبر الإنترنت أو قم بالبث مباشرةً على أجهزة التلفزيون الذكية وجهاز الألعاب والكمبيوتر المكتبي وMac والجوال والكمبيوتر اللوحي، والمزيد."/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Netflix مصر - شاهد العروض التلفزيونية عبر الإنترنت، شاهد الأفلام عبر الأنترنت</title>
+        <link href="./media/logo.ico" rel="icon">
+        <link href="./bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body dir="rtl">
+        <!-- top section -->
+        <div id="landing" class="position-absolute d-flex w-100 justify-content-center">
+            <img src="./media/background_main_ar.jpg" class="h-100" alt="ar netflix series background">
+            <div class="position-absolute bgTransparent w-100 h-100"></div>
+            <div class="position-absolute h-100 w-100">
+                <div class="position-absolute top-50 start-50 translate-middle mt-lg-4">
+                    <h1 class="text-center">أفلام وعروض تلفزيونية لا حصر لها والمزيد</h1>
+                    <h2 class="text-center">شاهد حيثما كنت. يمكنك الإلغاء متى شئت.</h2>
+                    <div class="py-3">
+                        <h2 class="text-center">هل أنت جاهزٌ للمشاهدة؟ أدخل بريدك الإلكتروني لإنشاء عضويتك أو إعادة تشغيلها.</h2>
+                        <form class="row g-3 justify-content-center mt-2" onsubmit="return false;">
+                            <div class="col-auto">
+                                <input type="email" class="form-control placeholderAR" id="inputEmail" placeholder="عنوان البريد الألكتروني">
+                              </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn mybtn mb-3">أبدأ &gt;</button>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav bar -->
+        <nav class="position-absolute w-100">
+            <div class="container-xl py-4 px-5 d-flex justify-content-between">
+                <div class="logosmall">
+                    <img src="./media/logo_main.png" alt="netflix logo"/>
+                </div>
+                <div class="d-inline-block">
+                    <div class="dropdown d-inline-block">
+                        <button class="btn dropdown-toggle langBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./media/lang-ico.png" alt="language icon" width="20px"/>
+                            العربية
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">العربية</a></li>
+                          <li><a class="dropdown-item" href="index.html">English</a></li>
+                        </ul>
+                    </div>
+                    <a href="login-ar.html">
+                        <button type="button" class="btn mybtn d-inline-block me-2">تسجيل الدخول</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="landingplaceholder" class="w-100"></div>
+        <!-- section 1 -->
+        <div class="mysection mt-2 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center pt-5">
+                    <div class="col-12 col-md-7"></div>
+                    <div class="col-12 col-md-5 p-5">
+                        <video class="bgvid3" autoplay loop muted>
+                            <source src="./media/video-tv-0819.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mysectiontop mt-2 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center py-2">
+                    <div class="col-12 col-md-6">
+                        <h1>الاستمتاع بالمشاهدة على التلفزيون</h1>
+                        <h2>شاهد على أجهزة التلفزيون الذكية و PlayStation و Xbox و Chromecast و Apple TV ومشغلات Blu-ray والمزيد.</h2>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./media/tv.png" alt="tv frame" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mysectiontop"></div>
+        <!-- section 2 -->
+        <div class="mysection mt-3 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center py-2">
+                    <div class="col-12 col-md-6">
+                        <img src="./media/mobile-0819.jpg" alt="mobile frame" class="w-100"/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h1>تنزيل عروضك المفضلة لمشاهدتها دون اتصال</h1>
+                        <h2>احفظ أعمالك المفضلة بسهولة لتتمكن دائمًا من مشاهدة ما تريد.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mysectiontop mt-3 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center py-2">
+                    <div class="col-12 col-md-6">
+                        <div class="w-100 h-100 d-flex justify-content-center">
+                            <div class="card mb-3 py-1 px-3 downcard">
+                                <div class="row g-0 justify-content-center align-items-center">
+                                  <div class="col-md-3">
+                                    <img src="./media/boxshot.png" class="img-fluid w-75 text-center" alt="Stranger Things cover">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Stranger Things</h5>
+                                      <p class="card-text"><small>جاري التنزيل...</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mysectiontop mt-3"></div>
+        <!-- section 3 -->
+        <div class="mysection mt-2 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center pt-5">
+                    <div class="col-12 col-md-7"></div>
+                    <div class="col-12 col-md-5 p-5">
+                        <video class="bgvid4" autoplay loop muted>
+                            <source src="./media/video-devices.m4v" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mysectiontop mt-2 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center py-2">
+                    <div class="col-12 col-md-6">
+                        <h1>المشاهدة في أي مكان</h1>
+                        <h2>شاهد أفلامًا وعروضًا تلفزيونية لا حصر لها على هاتفك أو جهازك اللوحي أو حاسوبك المحمول أو حتى على تلفزيونك.</h2>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./media/device-pile.png" alt="mac frame" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mysectiontop mt-2"></div>
+        <!-- section 4 -->
+        <div class="mysection mt-2 w-100 position-absolute">
+            <div class="container">
+                <div class="row d-flex align-items-center py-2">
+                    <div class="col-12 col-md-6">
+                        <img src="./media/kids_ar.png" alt="kid illustration" class="w-100"/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h1>إنشاء ملفات شخصية للأطفال</h1>
+                        <h2>طلق العنان لأطفالك لخوض مغامرات مثيرة مع شخصياتهم المحبوبة في تجربة مُخصصة لهم - ومجانًا ضمن عضويتك.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mysectiontop mt-2"></div>
+        <!-- section 5 -->
+        <div class="dsection mt-2 w-100">
+            <div class="container py-5">
+                <h1 class="text-center my-5">الأسئلة الشائعة</h1>
+                <div class="accordion accordion-flush text-end" id="accordionFlushExample">
+                    <div class="accordion-item my-1">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            ما هي خدمة Netflix؟
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Netflix هي خدمة بث تقدّم مجموعة متنوعة من العروض التلفزيونية والأفلام وأعمال الأنيمي الوثائقيات وغيرها من الأعمال الحائزة على جوائز من خلال الآلاف من الأجهزة المتصلة بالإنترنت.<br><br>ويمكنك مشاهدة كل ما تريد وقتما تشاء، بدون إعلانات تجارية - وكل ذلك مقابل سعر شهري منخفض. ستجد دومًا شيئًا جديدًا لتكتشفه، حيث يتم إضافة عروض تلفزيونية وأفلام جديدة كل أسبوع!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item my-1">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            كم تبلغ تكلفة Netflix؟
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">شاهد Netflix على هاتفك الذكي أو الكمبيوتر اللوحي أو التلفزيون الذكي أو الكمبيوتر المحمول أو جهاز البث، وكل ذلك مقابل رسم شهري ثابت. تتراوح أسعار الخطط بين 70&nbsp;ج.م.&lrm; و 165&nbsp;ج.م.&lrm; في الشهر. بدون تكلفة إضافية، وبدون عقود.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item my-1">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            أين يمكنني أن أشاهد؟
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">استمتع بالمشاهدة حيثما شئت ووقتما شئت. سجّل الدخول باستخدام حسابك على Netflix لتستمع بالمشاهدة الفورية على الويب عبر الموقع الإلكتروني netflix.com من الكمبيوتر الشخصي أو على أي جهاز متصل بالإنترنت مثبت عليه تطبيق Netflix، مثل أجهزة التلفزيون الذكية أو الهواتف الذكية أو أجهزة الكمبيوتر اللوحية أو مشغلات بث الوسائط أو أجهزة التحكم بالألعاب.<br><br>يمكنك أيضًا تنزيل عروضك المُفضلة عبر التطبيق الذي يعمل على أنظمة التشغيل iOS أو Android أو Windows 10. استخدم ميزة التنزيلات للمشاهدة أثناء التنقل، دون الحاجة إلى الاتصال بالإنترنت. اصطحب NETFLIX معك حيثما شئت.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item my-1">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            كيف أقوم بالإلغاء؟
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">تتسم خدمة Netflix بالمرونة. بلا عقود مزعجة وبلا التزامات. يمكنك إلغاء حسابك بكل سهولة عبر الإنترنت بنقرتين. لا رسوم للإلغاء، قم ببدء حسابك أو إيقافه في أي وقت.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item my-1">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            ما الذي يمكنني مشاهدته على Netflix؟
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">تتوفر لدى Netflix مكتبة ضخمة من الأفلام الروائية والوثائقيات والعروض التلفزيونية والأنيمي وأعمال Netflix الأصلية الحائزة على الجوائز، وغيرها الكثير. شاهد كل ما تريد، متى شئت.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item my-1">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            هل Netflix ملائمة للأطفال؟
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse px-3" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">تمنح تجربة Netflix للأطفال، والمُندرجة ضمن عضويتك، الأهل إمكانية التحكم بما يشاهده الأطفال خلال استمتاعهم بمشاهدة العروض التلفزيونية والأفلام الملائمة لجميع أفراد العائلة ضمن الملف الشخصي المُخصص لهم.<br><br>وبفضل عناصر الرقابة الأبوية المحمية برمز PIN للملفات الشخصية للأطفال، يستطيع الأهل تقييد المحتوى الذي يمكن للأطفال مشاهدته وفق تصنيف نضج معين، فضلًا عن حظر عناوين محددة لا يرغب الأهل أن يشاهدها الأطفال.</div>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="smallForm" class="mt-5">
+                    <h2 class="text-center">هل أنت جاهزٌ للمشاهدة؟ أدخل بريدك الإلكتروني لإنشاء عضويتك أو إعادة تشغيلها.</h2>
+                        <form class="row g-3 justify-content-center mt-2" onsubmit="return false;">
+                            <div class="col-auto">
+                                <input type="email" class="form-control placeholderAR" id="inputEmail" placeholder="عنوان البريد الألكتروني">
+                              </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn mybtn mb-3">أبدأ &gt;</button>
+                            </div>
+                          </form>
+                  </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="dsection mt-2 w-100">
+            <div class="container py-5">
+                  <div class="row my-4">
+                    <a href="#">هل لديك أسئلة؟ اتصل بنا.</a>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">الأسئلة الشائعة</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">مركز خدمة العملاء</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">الحساب</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">المركز الإعلامي</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">علاقات المستثمرين</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">الوظائف</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">طرق المشاهدة</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">بنود الاستخدام</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">الخصوصية</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">تفضيلات الكوكيز</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">معلومات الشركة</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">اتصل بنا</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">اختبار السرعة</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">إشعارات قانونية</a>
+                    </div>
+                    <div class="col-6 col-lg-4 my-1">
+                        <a href="#">حصريًا على Netflix</a>
+                    </div>
+                  </div>
+                  <div class="row my-4">
+                    <div class="d-inline-block">
+                        <div class="dropdown d-inline-block">
+                            <button class="btn dropdown-toggle langBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./media/lang-ico.png" alt="language icon" width="20px"/>
+                                العربية
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">العربية</a></li>
+                              <li><a class="dropdown-item" href="index.html">English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <p>Netflix مصر - تم استنساخ الموقع بواسطة <a href="https://www.linkedin.com/in/yousef-said-776a2220a/" target="_blank">Yousef Said</a></p>
+                  </div>
+            </div>
+        </footer>
+        <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>

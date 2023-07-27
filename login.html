@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta property="og:image" content="./media/netflix_logo.jpg"/>
+        <meta property="og:title" content="Netflix - Sign in"/>
+        <meta property="og:description" content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more."/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Netflix</title>
+        <link href="./media/logo.ico" rel="icon">
+        <link href="./bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body class="SIEN">
+        <div id="blackoverlay" class="w-100 h-100 position-fixed z-n1">
+
+        </div>
+        <!-- nav bar -->
+        <nav class="w-100 position-absolute z-2">
+            <div class="container-fluid py-4 px-5">
+                <div class="logosmall">
+                    <a href="index.html">
+                        <img src="./media/logo_main.png" alt="netflix logo"/>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- sign in section -->
+        <div class="d-flex w-100 justify-content-center SISEC z-3">
+            <div class="position-absolute h-100 w-100">
+                <div class="position-absolute top-50 start-50 translate-middle mt-lg-4">
+                    <div class="SIDIV">
+                        <div class="row my-1 mb-4">
+                            <h1>Sign In</h1>
+                        </div>
+                        <div class="row my-3">
+                            <form>
+                                <div class="row my-2">
+                                    <input type="text" name="EOP" id="EOP" placeholder="Email or phone number"/>
+                                </div>
+                                <div class="row">
+                                    <p class="d-none warningmsg my-1 mb-3" id ="W1">Please enter a valid email or phone number.</p>
+                                </div>
+                                <div class="row my-2">
+                                    <input type="password" name="pass" id="pass" placeholder="Password"/>
+                                </div>
+                                <div class="row">
+                                    <p class="d-none warningmsg my-1 mb-3" id ="W2">Your password must contain between 4 and 60 characters.</p>
+                                </div>
+                                <div class="row mt-4">
+                                    <button type="submit" id="SIF" class="btn mybtn mb-3">Sign In</button>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="SIRMBR col">
+                                        <input type="checkbox">
+                                        <p>Remember me</p>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#"><p class="text-end">Need help?</p></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row SINotes mt-5">
+                            <p>New to Netflix? <a href="index.html">Sign up now</a>.</p>
+                            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" id="moreBTN" class="bluea">Learn more.</a></p>
+                            <p id="hiddenMore" class="d-none">The information collected by Google reCAPTCHA is subject to the Google <a href="#" class="bluea">Privacy Policy</a> and <a href="#" class="bluea">Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalized advertising by Google).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="dSI w-100 position-absolute">
+            <div class="container">
+                  <div class="row my-4">
+                    <a href="#">Questions? Contact us.</a>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">Help Center</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">Terms of Use</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">Cookie Preferences</a>
+                    </div>
+                    <div class="col-6 col-lg-3 my-1">
+                        <a href="#">Corporate Information</a>
+                    </div>
+                  </div>
+                  <div class="row my-4">
+                    <div class="d-inline-block">
+                        <div class="dropdown d-inline-block">
+                            <button class="btn dropdown-toggle langBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./media/lang-ico.png" alt="language icon" width="20px"/>
+                                English
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="login-ar.html">العربية</a></li>
+                              <li><a class="dropdown-item" href="#">English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <p>Netflix Egypt - cloned by <a href="https://www.linkedin.com/in/yousef-said-776a2220a/" target="_blank">Yousef Said</a></p>
+                  </div>
+            </div>
+        </footer>
+        <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
